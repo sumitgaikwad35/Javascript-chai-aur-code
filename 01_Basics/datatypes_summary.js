@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
@@ -32,6 +32,27 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+let schoolName = "Yogeshwari"
+let anotherSchoolName = schoolName
+anotherSchoolName = "JNV"
+console.log(schoolName);
+console.log(anotherSchoolName);
+
+
+let firstSchool = {
+    name: "Yogeshwari"
+}
+
+let secondSchool = firstSchool
+
+secondSchool.name = "JNV"
+
+console.log(firstSchool.name);
+console.log(secondSchool.name);
+
